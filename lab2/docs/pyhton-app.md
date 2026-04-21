@@ -62,3 +62,13 @@ We have already optimized the Dockerfile by installing dependencies first and co
 IMAGE               ID             DISK USAGE   CONTENT SIZE   EXTRA
 python-app:latest   2859e8706c10        244MB         58.6MB     
 ```
+#### What we changed:
+
+1. We added numpy
+2. We added matrix multiply
+
+```
+[+] Building 33.4s (10/10) FINISHED
+IMAGE         ID             DISK USAGE   CONTENT SIZE   EXTRA
+lab2:latest   fd44715235cc        344MB         80.2MB   
+```
